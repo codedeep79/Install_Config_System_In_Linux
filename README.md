@@ -395,6 +395,11 @@ EOL
 
 [Install here](https://github.com/flightstar/Installer-Package-In-Linux/blob/master/Install%20private%20server%20Gitlab%20on%20Ubuntu)
 
+--------------------------------
+## Information author:
++ Author: Hau Trung Nguyen
++ Email: haunt.hcm2015@gmail.com
++ Skype: haunt.hcm2015
 
 
 
