@@ -73,7 +73,14 @@
     ![](https://lh3.googleusercontent.com/xRa_hmdaFt39gFF5_PIAfdZhy8FReYF6ac1szKVaB4nJuIwJr-5U3GUv0NsNlRjFjcKcRE_2xKTbwzCIKtJO2lXaptw27sT8q5l88h4lEGdZj2B4ZN0DX78M90ZgCgeLrLpqG3H5S0pSWwjefxbBhn9gp6QK3XoqYbpK82TemzLkB8k6BJnACqcCOYR9cDScJVPOsyEcRQ--upwyBxvdqHTCayLsXAJD-9wdjMPIYJCwIR6JD1KW7eobKYWgGJVNVpNEc1JaK4YuW_pyKpqe8Cagv0Au9CLe3P8qYCqtPWsojf906VuBMRTktJKoysbTF53iYRaG60MfMaJbbnZg1W2yS9tCpMmnrMXwPqi-0y4jV9eKUU65gE2fRKJQmOCtBqgAl7xsPJVwMy1JuLFqdsC0Epc6WjZN2vqjLRyEkphz9oB-lNQ_GBz1An5LYvBtmXec2EkQA0oN3HCBz9yse_ZZ9epngnJ5_7zhkRP_NmMTvPHZZ7BopswkpFKPLEXqvdelRDtqRVa_EjyOvn6kXtpVzySIa7qN_JKMVGoaulISfMGXPxV0KvdQufkck1FgqFyiS6OsdTH_iGN828vX6l58CNzfvhpYSo_bEnhyMQ-_RFNHuHi-dwlRjD0jKbuJF61OX76EhVXkP89_gS8jL-ijIlgtohb4=w1284-h613-no)
     
     **13.58.44.169**: IP public of VM EC2 in AWS
-    
-## 2. Create VM instances in compute engine GCP
 
-## 3. Migrate Apache server from AWS to GCP
+## 2. Generating the Required GCP Credentials
+
+### 2.1. Create a project in GCP
+### 2.2. Enable Google Compute Engine API
+### 2.3. Create service account
+### 2.4. Using Your GCP Credentials
+
+## 3. Import AWS into VM instances in compute engine GCP
+
+## 4. Migrate Apache server from AWS to GCP
