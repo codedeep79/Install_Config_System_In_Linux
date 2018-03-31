@@ -78,9 +78,55 @@
 
 ### 2.1. Create a project in GCP
 ### 2.2. Enable Google Compute Engine API
+Open the **Products & services** menu, select **APIs & Services** > **Dashboard**
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_5.png)
+
+On the **Dashboard** page, click the **ENABLE APIS & SERVICES** option.
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_6.png)
+
+This will take you to the **API Library** page. On the Library page, search for **Compute Engine API** in the search box. 
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_7.png)
+
+Click on **Compute Engine API** from the search results.
+
+![](https://lh3.googleusercontent.com/n0Yb_9bA0Kn0sfMiiKZpzpxuJgF80LjvZAIR03x2dRcOb1xS87t0yagjgUCm_URMvVlu_Gl9XavzF6rxGksnrfJTblDsk-xeb74CfHdDvqOzsLmxpa-U7CvfQIkYED1zLm30B3dYqr7kYfUyvYvs8XOt_TRJdc3J1ZKD1t5L40masnsmFdrh5u3DLhrzVOjfNZ0vgl6pXDdDOs7XoLJaFIOJKhDPXUkAmi0yXi-ckVadAKX_4te1FVHBbJEJmOqQc8JzzT5NDjRVTF9vAVTVfu24nnMyRXEKSZStMuxBSvbW4iL1KWslLkwUdKdgMm2UHx3col4IKuXbxAS1ZTB_0Vm0BimnAhSUn0kX2kKV2-LkiG_SSP9YTp9IuATrhYnuKUTacOzNQED4GD8UcKPmR2a6UWffK5sUgUsl9mo0tR35GXTEhH5txEegeEqOVkKoyFLBawP2ZtOSP2W6ygziqhvWHmzRVuWDEtU5gG0mVohYxHx7WSb3hoKyAlcj-s28XHjk1ZWktVdd0VbFTJW2F1T7Y7slldYfg0v4nnr7sgxwfrQrgpxcTe1UGhFUDLn7T5eZ0RO-5WDhXP3osIE5qSmlqmHwg9iaJWgS9PBwh5aPFE3cqCUBykS2yjXIUJxLWa6_RtDdFrdVoaiksFLDZZA6V15teFC7=w1252-h411-no)
+
+On the **Google Compute Engine API** page, click **ENABLE**.
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_9.png)
+
+You will see an AIP enabled confirmation box
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_10.png)
+
 ### 2.3. Create service account
-### 2.4. Using Your GCP Credentials
+
+Open your project and click on the **Products and services** menu and navigate to **IAM & admin** > **Service accounts**
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_12.png)
+
+On the **Service accounts** page click **Create service account**
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_13.png)
+
+On the **Create service account** dialog box, set the following:
+
+![](https://lh3.googleusercontent.com/RA5XqZP-b1duWTC5UA4UG61KyGM-ahQnwWzsio-E9qV7anNmQPPxQMsVM1jpV5F4IfXft4idtob4YMGTqlaSTbkCr2F48XxG3dJmxeG7LzuRkL7s42za8MG1m_KpLdeJkQjOnnBOkTXqFTMyjRzwwjs1nE1U5SfO9PnDP24eSeoO22mlQM26f4Hd0LM6Qdviy34_WZS_0KsrioeCcN331ol16OqGXC3GRPdKckPcoDr7v1NjmfkldLfQhI6vMIvbKKaMKjklOOOmSJG86c-D1VVKaAK3V6797Bmway-uf3vrGKZKBbpPmEsRXI9JaYL6rF9cntE9zUFrrKfX3j7Jww79pLVBF7dfNtNjSGVT2VwMwp2qxYyxENYRuekiJy1N2vorUuQcs7moFAlXg9FP4u7e6JEnrn7Agw-dZIBVo1sz0pgE8rdTX5mzypIMW0yYE747mLtHblftMozutVXQxmWxgLI7NKiSWKAKGdHn6cD38RsBZWmc9N07WPgkl_nVbhM9NLsrIV7kWX355VG5RgiHU2o9G46eTiM-7tIQSvrTY0EpZ05Lwqp2kHbuO5iVnO1M9kk2rEXRQs1d-O_aMo78GLi0iyXKp_hBLfiklTC4qcK6-noZ8xTnD3QspVKgfKQWVbENuyLeo4OtNHccmSnJruyy4Iq2=w1294-h515-no)
+
+A confirmation message will appear, informing you that your new service account and key have been created, and that the JSON file that contains your Private Key has been **downloaded** to your computer.
+
+![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_16.png)
+
+Close the confirmation message. You will see your new **Service account** on the Service Accounts page
+
+![](https://lh3.googleusercontent.com/BFJYmEt91-WGIDiseUT45tryxO90OUAo5BE1EHZ52JiN2q4ZLTQ8z025pRBK539hnAZC_8zd-EgBL-aUzglNCmwKmBqAnlt2NK43QJlH1K0J6nJy3M45-IiionvqcniMVO66PMpgCsPuKSBulefNDSHKFguRPjZTrVX2VL9YUnK-_wEN8lEi-DuD0lga-ugcAttQPNjHc1D9PuK5Va1BOWJVumnyRZCqg3Tp_upGc17213RoFD7s6yp7CRuaMlDulzfQWSwUGmZgLQR7ioTeSu5ZPJwMmULSgX5XfThiX2xdv3fDaQcCWoI3eB3YF9gfOYGBRel0BMzMXW4HRoej0rNs_GG-M-iRsHeHvVK6hA-XLeSUfaacVFtbHn68gMSYTyLaKhjq-0oneVGabII1j42ooL9rO1KK4w24BxmygpCVdz2j7HtIv03hKRkF6-bOFI55vrikrHC7jSXcNuDile74Y0G1lmhIBi07mhZ1k6H9ZlzKlhHPr1d4ezRus3LdzFugFc8G-rf7_t41BZSiYsftbORK5evbH3cBJRTyBK3KQPtds66ztNh__JRtc_TqLnNCHcf70gMxtBCE4B7VMS0Yvf5N-iwNImFtNYTODOFRP08kwO_uzq559acU-BQhxT0qa73P2aKWyuJIEUjUO0X0_gq-Ycm-=w1300-h303-no)
+
 
 ## 3. Import AWS into VM instances in compute engine GCP
+
+
 
 ## 4. Migrate Apache server from AWS to GCP
