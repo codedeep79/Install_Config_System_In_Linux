@@ -47,4 +47,75 @@ sudo rm -rf /var/lib/apt/lists/*
   cd ..
   nano local.conf
 ```
+```
+ADMIN_PASSWORD=your_pass
+DATABASE_PASSWORD=your_pass
+RABBIT_PASSWORD=your_pass
+SERVICE_PASSWORD=your_pass
+
+HOST_IP=10.0.2.15 (ip of Linux machine in the current)
+FLOATING_RANGE=10.0.2.224/27
+```
+
+Ctrl O -> y (Save & exit)
+
+## 6. Now you start your installation process
+
+`./stack.sh`
+
+After installed, terminal display some information to access:
+
+```
+This is your host ip address: <YOUR_IP>
+This is your host Ipv6 address: <YOUR_IP>
+Horizontal is now available at http://domain.com/dashboard
+Keystone is serving at http://domain.com/identity
+The default user are: <YOUR_USERS>
+The password: <YOUR_PASSWORD>
+```
+
+**xxx** Change default http port in openstack dashboard?
+
+Centos 7.4 instruction:
+
+1. **Change Puppets module ports file config /etc/httpd/conf/ports.conf:**
++ Change line **Listen 80** to **Listen 8888**
+
+2. **Change default host port `/etc/httpd/conf.d/15-default.conf`:**
++ Change line **<VirtualHost *:80>** to **<VirtualHost *:8888>*
+
+3. **Change Horizon host port `/etc/httpd/conf.d/15-horizon_vhost.conf`**:
++ Change line **<VirtualHost *:80>** to **<VirtualHost *:8888>**
+
+4. **Restart http server:**
+
+`systemctl restart httpd.service`
+
+Modify iptables:
++ List the iptables rules with line numbers and remember one with Horizon (11 in my case)
+
+```
+$ iptables -L -n --line-numbers
+[...]
+11 ACCEPT tcp -- 0.0.0.0/0 0.0.0.0/0 multiport dports 80 /* 001 horizon 80 incoming */
+[...]
+```
++ Insert the new rule at 11
+```
+$ iptables -I INPUT 11 -p tcp -m multiport --dports 8888 -j ACCEPT -m comment --comment "001 horizon 8888 incoming"
+$ service iptables save
+iptables: Saving firewall rules to /etc/sysconfig/iptables:[  OK  ]
+
+```
++ Remove the old rule (11 + 1 = 12, check it: `iptables -L -n --line-numbers`)
+
+```
+$ iptables -D INPUT 12
+$ service iptables save
+iptables: Saving firewall rules to /etc/sysconfig/iptables:[  OK  ]
+
+```
+
+
+
 
