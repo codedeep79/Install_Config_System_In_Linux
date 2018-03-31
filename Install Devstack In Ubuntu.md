@@ -74,9 +74,9 @@ The default user are: <YOUR_USERS>
 The password: <YOUR_PASSWORD>
 ```
 
-**xxx** Change default http port in openstack dashboard?
+## Change default http port in openstack dashboard?
 
-Centos 7.4 instruction:
+### Centos 7.4 instruction:
 
 1. **Change Puppets module ports file config /etc/httpd/conf/ports.conf:**
 + Change line **Listen 80** to **Listen 8888**
