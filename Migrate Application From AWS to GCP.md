@@ -91,15 +91,15 @@ sudo apt-get install apache2
 ### 2.2. Enable Google Compute Engine API
 Open the **Products & services** menu, select **APIs & Services** > **Dashboard**
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_5.png)
+![](https://lh3.googleusercontent.com/7ohocJr3UdwrRVWY7Ozp70yg-O4geVJUJLglAZy7-czounc4SWbvz3dUDVeb81cppDrky9IhtqkeJIw2oHBl28EDtJWD357bhZgWIoPuVEvj959QGe-VUhFBa1NY2yBm8mf2thksn2DGMdkGj8zQW61nRzqo6Iyh-tAu_6df3cPrTZCRs8Hauaq0XPU_VyafZyc_hmYpypEn5i0FFxWDBYSUOu4VYgRDZtaYlYCdHcqpRB3DBrH7wrCL1e0FfR_k-eBApr3YmT4vgE-Hrp9pDZBYT2TWFfYD7PRWYaLZ1uEeI4ym4cgO6iMuk0Iz2eDEKhFq7t8Yu2S_LBBrZvCdAS7xhEZAijTs4gu7s2yqFhCMcopCQlUW5DCCJvRwP3aZUHw3mPCDadu-1DS5rRVcujw5XPJ2JqYf3rkIp7nrAyA2pZ-xzXkJxDUvxTe_fCI1bSFlVXMaMYnQgvwJPzs_XQX0AckPTIpzwzZ33qtutl_a9TpgXcxutGQCN06H-PgNRJsFXDOHYdNV4kHSIlG6kanJQ3dTaXGN-TnH5s7V_qRdso6__EQav10--fbiJ_xBWiDlANDfojbCz-Qs8AQoDFByysNFWicuDT0y_OZgwGK4743cjp7Ys3FXkiy1sWpTUyjza_dLRrwIyylo9QM1nq5GfipPbZU2=w1300-h485-no)
 
 On the **Dashboard** page, click the **ENABLE APIS & SERVICES** option.
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_6.png)
+![](https://lh3.googleusercontent.com/Ej1O9knZ6NwZEKYIj5kzt9NJ0yGWrQmGhjdood-WyJpGsm85wr-rZXXwN_0D7PuH5RhBU3ACk29zF0g6TGbzn0RzECpe2OfmqlLCZP4a28IlXgr4fCaCjsFjJ4HAzwm1N_oO-sVeleQzIv5jfRMQV1dJBYbbLU7HXGSPHF5ELVkWaQRf4W5N0twrBCO-HaBkbEx_dGztn6XMsn_51XDS6fnShXEnesXG-0CTe9U4wzzPHfnP-d-lrHn6JyhBldrDRgwiJE01-OwCaQEsSb9ZCmcr2i8quVq24wWkza05XZZ_bpg62xjBQ7TINmuZ15Ai30qWFEZbkhZPwg2Kgh2-TjVxONPvYanMVbA8A0sErbjbC5ejnsqJ7QRJlxb9BuiGfAsl8xoFVVUrNK2r4FfcqS2TiQhSfgpTmXP_PboupgwwKQIhFfCKEEFQaqFNJusnr4uO-vit5udM6YFx1TlTh201PJ_DAN2_fyC-qnx8GQt63V0eMjUXKLeWIXyWa8EW1zB0SbRV26DjYfXmzTVo2Kotwjl_hvt38wtINkk1ueUz84kIVUX4wib0kQsUmo-lvGCXCKyqzujc0nOHE2uAU62s0cHoKJv4sUgE3pziuGeqKg7nzqeeqrpuQD5bn0ZOSkS0r2WNs-Xyp7rfTkD_YN919vDUu09M=w1298-h324-no)
 
 This will take you to the **API Library** page. On the Library page, search for **Compute Engine API** in the search box. 
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_7.png)
+![](https://lh3.googleusercontent.com/ayCCjHTqUrye92ZsKsJBiV-gSNDd7s8NHVDbI-U6qAJ-dE0B3GSsIa7Q8_4rkVEN8undKe6f2-64fzIu12AzHnNbn9Bh7vTVH9Ep2IhrAe8SmQpSSq6FpQvUSqH7E0ddJTJXs5HlWJQgIKaXlPvAGlogpEGU_I3R5sxpCR_L99N726D8HB0LzSKfiRzQcYNINkgPNpQKxqQgTKGnTEkzJmi6jyvatgkcDUdcAoNsUK8sv_4mqaBKm7arbxa3nCKkA17HPPoRSTbTX8ZeswHvUY4th6c4IzU6bWLLMKyPmIfK_cIIM-HfWb3AkL-W9lgCtVUY6eSIXn6-uAxBKR8vFPLmKhDGmSrr7sz78SepxsEFzoTR8eyrRnxJ2q_eigLLxLzPTHF8OGth9UbLDSXBhBlGAHdr8xOfPmHGSOl7oamDzTERjDYzD3tcn2SKncRGSi7HmZblKClW0FDw2ncet1RoxaQOUJGkJypS1T2VrIMiy1Kq9vwQR_Q_F29agtTJt7MZkSdqVYyzsFpyW-c3s5Hy6guxWyFSGGp1cR5U2x6GCn5YSweL6WcMpvNmSpu_43T8v8vF61NYoTzlK9f8P5uQIUUjPwP1TxTG5Jgs8K9DrwB8g8ar1_8IC-NSIpJNWTA7D-NnfzehO69rGsGeNI6h0oWMomS5=w1300-h304-no)
 
 Click on **Compute Engine API** from the search results.
 
@@ -107,9 +107,9 @@ Click on **Compute Engine API** from the search results.
 
 On the **Google Compute Engine API** page, click **ENABLE**.
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_9.png)
+![](https://lh3.googleusercontent.com/uyLQwdvDR-43G1vu5voj34W16S8NBakpzgVBUZS55kCZYNwsRyDnBNlXMzh1-sNZh8R6crpRNeb94tYYF1USR74SMIm30bHA8CGSqKCndvrRTllVZag4H071LfWlxyZ0b-NV7QhULE7vy8GsPMJNIBOvUpZLyfjfRL5H4PhYY0NfDOtwjHrY7wQ8DVfB8PJ3dwJISJ0KZ6PM1C45fAGPmG3SqyRirU_Ez4B9hjP7MlcaeccBExmBKF88jFc0CPT9NktJRCUqRI-eOs0OgJ0mMeI8KKHnqv9qW4V2UCnAXQLeHEveT4cBpCFY1zkyUeH_XFNTRuE8ppnTCh7mVOwHetC2v-cdhRIT8X_I8rrFu6b1Kv7wGW8IcuUwlUVWRFNlYSwuDIWkqhvh9rAy9UQ6AOR9V9uiYndD0AuREK9BrM2R8ZV5mA1MZJss2uaYtzLbydyeNqI9wwrvMq3mEp_qX3aOh0f60XjedBwAihRx7eW94Ei8HiozaAJXy378ucBMrQFWYL2TewEEFyAZbl7gLjCBIKB5fgvr2B2wdB2NCqH9FZ1niXbsM9Z8KCWV3a0Ha9br2qFS-N6iOy2tfc1XKF1TNCRdAXFjBpmgy0J0pYWY9oqvQlzvnJOJ5cXKyCPToDyNzEO3fpI0SSh_jB0Hw-POU5SkKpN8=w1300-h316-no)
 
-You will see an AIP enabled confirmation box
+You will see an API enabled confirmation box
 
 ![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_10.png)
 
@@ -117,11 +117,11 @@ You will see an AIP enabled confirmation box
 
 Open your project and click on the **Products and services** menu and navigate to **IAM & admin** > **Service accounts**
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_12.png)
+![](https://lh3.googleusercontent.com/1hlWf6DVZr6grfImRuSQUd728ArW8bGiwBqnN7pXdjK4ccB0E9i-z5CHwhkBvIXFo0VDlDZqfPxkeUf-C01btsTrCciRZGgE6q3qRZDtaNMMSy0YbwGb7bWRD3QGhAgJxCNcnCgP1uKRhPglgKmuqX-jYrdXmvHBxZDC0fo9y1J8QxX2TUxKDyT-tLIazEfSgsTFOVI3RDiZIulkJ2-9CdxpfNLqr_qNM0nniFmAo1c5LhsVWYhKQW39jSamh9OlIsGSpLC5D6YKueueesoj3HU4ueAtzMJr8GKdURx7ZljAxIr4S8tPc6VKbU5gfobAIKrdxWDGPdiXlwgkXi-akyOLYc1g80zzpy6EjkOihy2FwutRca7TD5d5-fM2l_oRhOPsOrD1P5PEJlQhHMtdRHcix6tkR_uyooNXYjpwxaI6MUV2NJiR7SA9qXPOuBMMehC7pkbS1XD9lr83BDbOqe25sg1VyI_ybmlQDvDDrdUAKGYCFhGwCi8gYLoVjcEr3XsEb-bZRv3zaMehwMrJmSyTFrVCjxIzexK03UQFZHUM8l3niiHq-0MtgLnPg_Lx-xyFc6b6bi1IOy56Myx06YnEJG7-2iwhUC5yl0smM8_VujrZLhrzU0u9CTfhLOWO946QiriYjaLn_eECIbj4uGxs7cyQDFmT=w1299-h492-no)
 
 On the **Service accounts** page click **Create service account**
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_13.png)
+![](https://lh3.googleusercontent.com/brfELf6orjZl7MPiEH1uwWpO5HosK0cqHBULguxT41mgdIlEib1d0g5FauG33qfPTTw-dUU19SdytJU3TpXtfi_CMyA7QBP3JwQXjlkfjvRw69Qb1xxthKrEFHoHg576GTr4KMXidtiM4tvtl81E4KQvqTBYr_IDD7UOceBZT-rXipARiENkY2lALJk5Osrs811OwTzEdCZHeTduAU65UbO8G_XijZAZZ-aXGQCLx2oYN7y8DWm6dfKWjALJsix9Mu6dHcM5jWog8O3yKGlPD79x36OxOcdPJucvYaFRGmRp3cTi2cwt3V6YDMs7AiINlUtxZCYbYJcro-Cgyb9CLjOaecZcZUxtcoWTvzXgnYKPQR6RhRlNufMiwO-r3sovxihod3NqjcHzjzcIjp3s6LXq58w1LJTOuBypUpgxVCGae1z1u0ggxpVtB-pG1Bvo_i9xpsgThkAre0-cOBsY7gIIJcJqnIPm-E7LErGkHMNeaDx4-yktsoEkx1LwGavZN-VvqFdsrNoDINAV5CP9tY4m2_J7_i9g3Vle8lKv9GRvXFsCUnx1JJT4ThproKPxhxvzFtQGzS-c7ECwOsiNIac4kLnENb3xLGOQBXUjoBfS_Qe0fF2AqozaZeeFsafJivuLViB3WIDdklZxox2XW4ldo6yBXge5=w1299-h514-no)
 
 On the **Create service account** dialog box, set the following:
 
@@ -129,7 +129,7 @@ On the **Create service account** dialog box, set the following:
 
 A confirmation message will appear, informing you that your new service account and key have been created, and that the JSON file that contains your Private Key has been **downloaded** to your computer.
 
-![](https://docs.cloudendure.com/Content/Resources/Images/CloudEndure%20-%20User%20Guide%20-Ch4%20Standalone%20-%20Draft1/Preparing%20Your%20GCP%20Account_16.png)
+![](https://lh3.googleusercontent.com/OkdeV8uvx2c3Il9iXdoqK_njvTMiFMtCGFZBgdTJbCyPiLAHT4IujVUQyxCKVfEG-upjz3zRI_nodJvrOF9Pdty6JhISnSuhYakUYu3Ew0xqbwm92CgN9M0XSQevMEmfDTbrnoHxaI1f3YSA6T1RDnFApzdK1vxpCRfgUvYbCxjWJcK2xoKVc5D-gho4XwY7Wpvpm3OauRIpM37HWfpB2unN4SPTWD4WeeeYghvnGFPJrwWZtZleHNFlO9JkzE0-pUXzdaZTlZ0Lt7jNrhJW8Xls7in1y5xYL4_KsLqcD0DSa7QDVdozN3JjRjkl1A-msC3MLD0nN_kv-RtUcnqczG8MX8blaK4e3u32D6cns1TXEol4xL7z7Fpj4lEdlHtokwVnsGIGFKPwMVOOd00S_f1m3-aggejfIcjklRgAaiGAtUK30Zgzcek0s0njanUkzxMl9GVzUD8lnv4r6Za03JQmjUwNcPxett3rjThG7tT6S7DWkbVqaFPTSCij0yWhJel1SmlC0PMWAXb3V3J4nTMuqf06yeaENvFrjilpEa1YL-sMPv17wK4QXKV72I9j1TJ4jeZfGcLLUvymO3PMserKBpMWrTwFq6Yl5P1JM2sSWI86MTr0O__Kr9bUusgJKc-PdjVnzMO99of8vEHhD1sBTdjDi6AM=w1300-h421-no)
 
 Close the confirmation message. You will see your new **Service account** on the Service Accounts page
 
