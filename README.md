@@ -395,6 +395,33 @@ EOL
 
 [Install here](https://github.com/flightstar/Installer-Package-In-Linux/blob/master/Install%20private%20server%20Gitlab%20on%20Ubuntu)
 
+### 23. install latest gcc on Ubuntu LTS (12.04, 14.04, 16.04)
+
+If you are still reading let's carry on with the code.
+```
+sudo apt-get update && \
+sudo apt-get install build-essential software-properties-common -y && \
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y && \
+sudo apt-get update && \
+sudo apt-get install gcc-snapshot -y && \
+sudo apt-get update && \
+sudo apt-get install gcc-6 g++-6 -y && \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6 && \
+sudo apt-get install gcc-4.8 g++-4.8 -y && \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8;
+```
+
+When completed, you must change to the gcc you want to work with by default. Type in your terminal:
+
+`sudo update-alternatives --config gcc`
+
+To verify if it worked. Just type in your terminal
+
+`gcc -v`
+
+If everything went fine you should see gcc 6.1.1
+
+
 --------------------------------
 ## Information author:
 + Author: Hau Trung Nguyen
