@@ -421,6 +421,56 @@ To verify if it worked. Just type in your terminal
 
 If everything went fine you should see gcc 6.1.1
 
+### 24. Install all software in Ubuntu by 1 click
++ Install Ubuntu After Install
+
+```
+sudo add-apt-repository ppa:thefanclub/ubuntu-after-install
+sudo apt-get update
+sudo apt-get install ubuntu-after-install
+```
+
++ Remove Ubuntu After Install
+
+```
+sudo apt-get remove ubuntu-after-install
+sudo add-apt-repository --remove ppa:thefanclub/ubuntu-after-install
+```
++ List of software available:
+  + Ubuntu Restricted Extras : Video codecs and Flash Plugin, video, listen to music mp3
+  + libdvdcss : Activate DVD playback
+  + Unity Tweak Tool : Help custom Ubuntu
+  + Numix Circle Icons : Good icon for Ubuntu
+  + Variety wallpaper changer : thay đổi wallpaper của Ubuntu
+  + My Weather Indicator : hiển thị thời tiết trên thanh trạng thái
+  + Google Chrome : 
+  + Tor Browser : 
+  + LibreOffice: Tools of office software Open source
+  + Skype: Chat online
+  + Pidgin : phần mềm chat tích hợp Yahoo, Facebook, Gtalk tất cả trong một.
+  + Grive Tools : để đồng bộ với Google Drive, trình lưu trữ dữ liệu trực tuyến
+  + DropBox : trình lưu trữ dữ liệu trực tuyến
+  + VLC : trình nghe nhạc, xem video tất cả trong một.
+  + KODI (XBMC)
+  + Radio Tray : để streaming radio service trong Ubuntu
+  + Spotify : trình nghe nhạc online
+  + GIMP: Photoshop alternative
+  + Darktable : để xử lý RAW files image
+  + Inkscape : trình chỉnh sửa ảnh vector, tương tự Adobe Illustrator
+  + Scribus : tương tự Adobe InDesigner để thiết kế ấn bản, sách báo xuất bản.
+  + OpenShot : trình chỉnh sửa video
+  + Kdenlive : chỉnh sửa video nâng cao
+  + Handbrake : chuyển đổi định dạng video
+  + Audacity : chỉnh sửa file âm thanh và nhạc
+  + Steam : trình quản lý và chơi game trong Linux
+  + KeePass trình quản lý password
+  + Shutter : chụp hình nhanh màn hình
+  + FileZilla  : trình đồng bộ file FTP
+  + BleachBit : trình download torrent
+  + Samba : dùng cho windows network sharing
+  + PDF Tools : chỉnh sửa file PDF
+  + p7zip : trình nén và giải nén file
+  + Oracle Java 7
 
 --------------------------------
 ## Information author:
